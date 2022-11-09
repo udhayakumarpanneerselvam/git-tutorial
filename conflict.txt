@@ -4,3 +4,8 @@ Main()
 //this is main function 
 //legacy code
 }
+
+Secure patch() {
+//this code is used for creating merge conflict
+//we are trying to create conflict  to resolve
+}
