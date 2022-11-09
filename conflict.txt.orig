@@ -5,14 +5,14 @@ Main()
 //legacy code
 }
 
+<<<<<<< HEAD
 Feacture1(){
 // this is the feacture1 developed by developer1
 // without having secure patch updated we have added this feature
 //now we will see how this cause conflict
-}
-
+=======
 Secure patch() {
 //this code is used for creating merge conflict
 //we are trying to create conflict  to resolve
-
+>>>>>>> master
 }
