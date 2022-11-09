@@ -1,0 +1,6 @@
+Main()
+{
+//this is function 1
+//this is main function 
+//legacy code
+}
