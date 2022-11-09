@@ -4,14 +4,15 @@ Main()
 //this is main function 
 //legacy code
 }
-
+<<<<<<< HEAD
 Feature2(){
 //Here we are trying to add feature2 by developer2
 //here there is no update of feature1 and secure patch
 //we will see how the patch is updated first
-}
+=======
+
 Secure patch() {
 //this code is used for creating merge conflict
 //we are trying to create conflict  to resolve
-
+>>>>>>> master
 }
