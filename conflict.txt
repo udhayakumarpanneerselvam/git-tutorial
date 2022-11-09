@@ -4,3 +4,8 @@ Main()
 //this is main function 
 //legacy code
 }
+Feature2(){
+//Here we are trying to add feature2 by developer2
+//here there is no update of feature1 and secure patch
+//we will see how the patch is updated first
+}
