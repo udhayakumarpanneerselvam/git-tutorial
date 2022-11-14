@@ -111,7 +111,7 @@ def sessLogout(infa_session_id):
 print ("Welcome to CI_CD Application")
 
 #Get the Tag Info that has to be used
-iicsTag = input("Testdemo")
+iicsTag = input(Testdemo)
 
 #Make a Login Call
 
