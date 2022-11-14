@@ -111,8 +111,8 @@ def sessLogout(infa_session_id):
 print ("Welcome to CI_CD Application")
 
 #Get the Tag Info that has to be used
-iicsTag = input("Enter the IICS Asset Tag : Testdemo")
-
+#iicsTag = input("Enter the IICS Asset Tag : Testdemo")
+iicsTag = "Testdemo"
 #Make a Login Call
 
 srcInfaSessionID = loginCall("udhayakumar.panneerselvam","Saibaba@1616")
