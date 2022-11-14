@@ -34,6 +34,7 @@ env:
 jobs:
   dev_build:
     name: Review Development Code
+    permissions: write-all
     environment:
       name: development
     # The type of runner that the job will run on
