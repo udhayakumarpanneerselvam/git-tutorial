@@ -77,7 +77,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: IICS
+          repository: udhayakumarpanneerselvam/IICS
           ref: UAT
           token: ${{ secrets.GH_TOKEN }}
           path: IICS
