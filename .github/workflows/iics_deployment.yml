@@ -63,9 +63,9 @@ jobs:
         run: |
             python ./scripts/infa_login.py
 
-      - name: Test Committed Mapping Tasks
-        run: |
-            python ./scripts/infa_get_updates.py
+      #- name: Test Committed Mapping Tasks
+        #run: |
+           # python ./scripts/infa_get_updates.py
 
   uat_commit:
     name: Complete uat promotion
