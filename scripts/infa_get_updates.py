@@ -13,7 +13,7 @@ import sys
 
 URL = os.environ['IICS_POD_URL']
 SESSION_ID = os.environ['sessionId']
-COMMIT_HASH = os.getenviron['COMMIT_HASH']
+COMMIT_HASH = os.environ['COMMIT_HASH']
 #COMMIT_HASH = '78d201075d4250d8e48c7ae23b0731c56e1b5e55'
 
 HEADERS = {"Content-Type": "application/json; charset=utf-8", "INFA-SESSION-ID": SESSION_ID }
