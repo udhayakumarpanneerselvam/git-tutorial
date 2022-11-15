@@ -10,11 +10,11 @@ name: DEPLOY_MAPPING_TASK
 # Controls when the workflow will run
 on:
   workflow_dispatch:
-    inputs:
-      committed_sha:
-        description: "Hash to deploy"
-        type: string
-        required: true
+    #inputs:
+      #committed_sha:
+        #description: "Hash to deploy"
+        #type: string
+        #required: true
 
 env:
   IICS_LOGIN_URL: https://dm-ap.informaticacloud.com/ma/home
@@ -28,7 +28,7 @@ env:
 
   # This is overriding until we connect the repository with a workflow_dispatch
 
-  #COMMIT_HASH: ${{  github.event.inputs.committed_sha }}
+  COMMIT_HASH: ${{  github.event.inputs.committed_sha }}
   
   #COMMIT_HASH: ${{  github.sha }}
 
