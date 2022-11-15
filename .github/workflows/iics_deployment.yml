@@ -54,7 +54,7 @@ jobs:
       - name: Install python modules
         run: |
             python -m pip install --upgrade pip
-            pip install -r udhayakumarpanneerselvam/git-tutorial/requirements.txt
+            pip install -r requirements.txt
 
       # Runs a single command using the runners shell
       - name: Login to development
