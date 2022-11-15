@@ -59,11 +59,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Login to development
         run: |
-            python udhayakumarpanneerselvam/git-tutorial/scripts/infa_login.py
+            python ./scripts/infa_login.py
 
       - name: Test Committed Mapping Tasks
         run: |
-            python udhayakumarpanneerselvam/git-tutorial/scripts/infa_get_updates.py
+            python ./scripts/infa_get_updates.py
 
   uat_commit:
     name: Complete uat promotion
