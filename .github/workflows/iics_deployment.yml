@@ -100,7 +100,7 @@ jobs:
         run: git config --global user.email "u.panneerselvam@accenture.com"; git config --global user.name "udhayakumarpanneerselvamm"
 
       - name: Commit changes to UAT
-        run: cd udhayakumarpanneerselvam/IICS; git fetch --all; git cherry-pick --strategy=recursive -X theirs ${COMMIT_HASH}; git push
+        run: cd udhayakumarpanneerselvam/IICS; git fetch --all; git cherry-pick --strategy=recursive -X theirs ${ COMMIT_HASH }; git push
 
       - name: Get latest UAT commit hash
         run: cd udhayakumarpanneerselvam/IICS; git pull; echo "UAT_COMMIT_HASH=$(git log -1 --pretty=format:%H)" >> $GITHUB_ENV
