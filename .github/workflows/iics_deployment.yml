@@ -9,7 +9,12 @@ name: DEPLOY_MAPPING_TASK
 
 # Controls when the workflow will run
 on:
-  push
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+#on:
+  #push
   #workflow_dispatch:
     #inputs:
       #committed_sha:
